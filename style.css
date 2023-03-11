@@ -205,3 +205,35 @@ bottom:-1.4rem;
 .attribution {
   display: none;
 }
+
+
+@media screen and (max-width: 768px){
+  .container{
+    max-width:323px;
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .article-image{
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 1rem;
+    max-height:200px
+  }
+
+  .article-image img{
+    width:100%;
+    height: auto;
+  }
+
+.article-text{
+  
+}
+
+  .article-text h1{
+    font-size:1rem;
+  }
+
+  .article-text p{
+    font-size:.8rem;
+  }
+}
