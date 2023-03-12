@@ -31,6 +31,10 @@ body {
   opacity: 0.5;
 }
 
+.sablona2 {
+  display: none;
+}
+
 body {
   display: flex;
   align-items: center;
@@ -197,16 +201,31 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .sablona {
+    display: none;
+  }
+
+  .sablona2 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.25);
+    opacity: 0.5;
+    z-index: 3;
+  }
+
   .container {
     max-width: 323px;
     height: fit-content;
     flex-direction: column;
+    transform: scale(1.25);
   }
 
   .article-image {
     border-bottom-left-radius: 0;
     border-top-right-radius: 1rem;
-    max-height: 200px;
+    max-height: 230px;
   }
 
   .article-image img {
