@@ -304,12 +304,12 @@ padding: 0.39rem 0.5rem;
 
 .sharing-box {
   opacity: 1;
-  top: -13px;
-  left: -257px;
+  top: -11px;
+  left: -252px;
 
   justify-content: flex-start;
 
-  padding: 1.15rem 7rem 1.15rem 2rem ;
+  padding: 1.15rem 7rem 1.15rem 1.8rem ;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-left-radius: .75rem;
@@ -335,10 +335,12 @@ display:none;
   .sharing-box {
     background:#49556b;
   display:inline-flex;
+   
 }
   
   .sharing-box.zmiz {
   display:none;
+     transition: 5s;
 }
 
 }
